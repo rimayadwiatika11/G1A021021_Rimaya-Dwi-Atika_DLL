@@ -145,7 +145,7 @@ int main()
 	// daftar tertaut akan menjadi 3->5->11->NULL
 	push(&head, 3);
 
-	// Insert 1 pada akhiran. jadi 
+	// Insert 12 pada akhiran. jadi 
 	// daftar tertaut akan menjadi 3->5->11->12->NULL
 	append(&head, 12);
 
