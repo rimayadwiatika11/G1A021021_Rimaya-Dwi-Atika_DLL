@@ -134,23 +134,23 @@ int main()
 	/* Mulailah dengan daftar kosong */
 	Node* head = NULL;
 
-	// Insert 11. Jadi daftar tertaut akan menjadi 6->NULL
+	// Insert 11. Daftar tertaut akan menjadi 6->NULL
 	append(&head, 11);
 
-	// Insert 5 pada awalnya.
-	// Jadi daftar tertaut akan menjadi 5->11->NULL
+	// Insert 5 di awalnya.
+	// Daftar tertaut akan menjadi 5->11->NULL
 	push(&head, 5);
 
-	// Insert 3 pada awalnya. jadi
-	// daftar tertaut akan menjadi 3->5->11->NULL
+	// Insert 3 di awalnya. 
+	// Daftar tertaut akan menjadi 3->5->11->NULL
 	push(&head, 3);
 
-	// Insert 12 pada akhiran. jadi 
+	// Insert 12 di akhiran.  
 	// daftar tertaut akan menjadi 3->5->11->12->NULL
 	append(&head, 12);
 
-	// Insert 6, setelah 5. jadi
-	// daftar tertaut akan menjadi 3->5->6->11->12->NULL
+	// Insert 6, setelah 5. 
+	// Daftar tertaut akan menjadi 3->5->6->11->12->NULL
 	insertAfter(head->next, 6);
 
 	cout << "DLL yang dibuat adalah: ";
